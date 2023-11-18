@@ -11,6 +11,7 @@ openai.api_base = "https://andvis-openai.openai.azure.com/"
 #os.getenv("AZURE_OPENAI_ENDPOINT") 
 openai.api_version = "2023-05-15"
 openai.api_key = "999dfa8e15214b08b2ed2c0c637c21f8"
+openai_api_key = "999dfa8e15214b08b2ed2c0c637c21f8"
 #"999dfa8e15214b08b2ed2c0c637c21f8"
 #os.getenv("AZURE_OPENAI_KEY")
 

@@ -7,7 +7,7 @@ import openai
 openai.api_type = "azure"
 openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT_GPT4")
 openai.api_version = "2023-05-15"
-openai.api_key = "34543309458035"
+openai.api_key = "4a32aeb0acaa48449460221612bb6ada"
 #openai.api_key = os.getenv("AZURE_OPENAI_KEY_GPT4")
 
 response = openai.ChatCompletion.create(

@@ -15,6 +15,7 @@ openai.api_key = "999dfa8e15214b08b2ed2c0c637c21f8"
 "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"
 
 
+
 #os.getenv("AZURE_OPENAI_KEY")
 
 response = openai.ChatCompletion.create(

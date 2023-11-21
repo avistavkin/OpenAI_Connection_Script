@@ -11,10 +11,7 @@ openai.api_base = "https://andvis-openai.openai.azure.com/"
 #os.getenv("AZURE_OPENAI_ENDPOINT") 
 openai.api_version = "2023-05-15"
 openai.api_key = "999dfa8e15214b08b2ed2c0c637c21f8"
-openai_api_key = "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"
-npm_access_token = "999dfa8e15214b08b2ed2c0c637c21f8"
 
-"8d065b1fe0ef4fe0808a289f45fd7a4e"
 #os.getenv("AZURE_OPENAI_KEY")
 
 response = openai.ChatCompletion.create(

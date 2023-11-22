@@ -6,18 +6,9 @@ import openai
 openai.api_type = "azure"
 openai.api_base = "https://andvis-openai.openai.azure.com/"
 
-#os.environ['HG_USER']
-#"https://andvis-openai.openai.azure.com/"
 #os.getenv("AZURE_OPENAI_ENDPOINT") 
 openai.api_version = "2023-05-15"
-openai.api_key = "999dfa8e15214b08b2ed2c0c637c21f9"
-"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"
-"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"
-"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"
-"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"
-
-
-
+openai.api_key = "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"
 #os.getenv("AZURE_OPENAI_KEY")
 
 response = openai.ChatCompletion.create(

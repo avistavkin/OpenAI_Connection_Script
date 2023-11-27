@@ -2,7 +2,6 @@
 import os
 import openai
 
-
 # Set up Azure OpenAI API credentials
 openai.api_type = "azure"
 openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT_GPT4")

@@ -2,14 +2,10 @@
 import os
 import openai
 
-
 openai.api_type = "azure"
 openai.api_base = "https://andvis-openai.openai.azure.com/"
-
-#os.getenv("AZURE_OPENAI_ENDPOINT") 
 openai.api_version = "2023-05-15"
 openai.api_key = "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"
-#os.getenv("AZURE_OPENAI_KEY")
 
 response = openai.ChatCompletion.create(
     engine="Model1", # engine = "deployment_name".
@@ -20,6 +16,5 @@ response = openai.ChatCompletion.create(
         {"role": "user", "content": "Do other Azure AI services support this too?"}
     ]
 )
-
 print(response)
 print(response['choices'][0]['message']['content'])

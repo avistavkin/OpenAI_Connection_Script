@@ -13,7 +13,7 @@ response = openai.ChatCompletion.create(
     messages=[
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "What do you kmnow about Sinergija events happen every year in Serbia?"},
-        {"role": "assistant", "content": "Yes, customer managed keys are supported by Azure OpenAI."},
+        {"role": "assistant", "content": "Yes, this event happens every year and is very popular."},
         {"role": "user", "content": "Which Senergija event was the best one?"}
     ]
 )

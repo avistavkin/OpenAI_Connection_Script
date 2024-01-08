@@ -1,4 +1,6 @@
-import openai  
+from openai import OpenAI
+
+client = OpenAI(api_key=api_key)  
 import logging  
 import sys  
 import os  
@@ -11,11 +13,10 @@ if not api_key:
     sys.exit(1)  
   
 # Set the OpenAI API key  
-openai.api_key = api_key  
   
 try:  
     # Make a request to the API  
-    openai.Completion.create(engine="text-davinci-002", prompt="Test", max_tokens=5)  
+    client.completions.create(engine="text-davinci-002", prompt="Test", max_tokens=5)  
 except Exception as e:  
     logging.error("Failed to connect to OpenAI: %s", e)  
     sys.exit(1)  

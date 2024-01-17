@@ -4,7 +4,7 @@ from openai import AzureOpenAI
 
 client = AzureOpenAI(azure_endpoint="https://andvis-openai.openai.azure.com/",
 api_version="2023-05-15",
-api_key="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")
+api_key="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")
 
 
 response = client.chat.completions.create(model="Model1", # engine = "deployment_name".
